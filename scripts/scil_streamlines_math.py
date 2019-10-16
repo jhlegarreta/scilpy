@@ -25,7 +25,7 @@ are kept in the output will preserved. This requires that all input files
 share the same type of metadata. If this is not the case, use the option
 --no-data to strip the metadata from the output.
 
-Repeated uses with .trk files will slighly affect coordinate values
+Repeated uses with .trk files will slightly affect coordinate values
 due to precision error.
 """
 

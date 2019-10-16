@@ -78,7 +78,7 @@ def union(left, right):
 
 
 def perform_streamlines_operation(operation, streamlines, precision=None):
-    """Peforms an operation on a list of list of streamlines
+    """Performs an operation on a list of list of streamlines
 
     Given a list of list of streamlines, this function applies the operation
     to the first two lists of streamlines. The result in then used recursively
@@ -91,7 +91,7 @@ def perform_streamlines_operation(operation, streamlines, precision=None):
     Parameters
     ----------
     operation: callable
-        A callable that takes two streamlines dicts as inputs and preduces a
+        A callable that takes two streamlines dicts as inputs and produces a
         new streamline dict.
     streamlines: list of list of streamlines
         The streamlines used in the operation.
